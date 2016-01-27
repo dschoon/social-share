@@ -1,2 +1,12 @@
-examples/**/*-bundle.js
-node_modules/
+dist
+node_modules
+jspm_packages
+src/js/bundle.js
+src/js/components/.*
+src/js/components/.module-cache/
+build/
+dist/
+.DS_Store
+.idea
+*.iml
+test-results.xml
