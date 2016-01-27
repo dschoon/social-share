@@ -1,0 +1,36 @@
+{
+  "name": "social-share",
+  "version": "0.0.0",
+  "description": "Social sharing buttons",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dschoon/social-sharing.git"
+  },
+  "homepage": "https://github.com/dschoon/social-sharing",
+  "bugs": "https://github.com/dschoon/social-sharing/issues",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "rackt test --single-run --browsers Firefox",
+    "start": "rackt server"
+  },
+  "authors": [
+    "Dan Schoonmaker"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "rackt-cli": "^0.4.0",
+    "react": "^0.14.6"
+  },
+  "peerDependencies": {
+    "react": "^0.14.6"
+  },
+  "tags": [
+    "social share"
+  ],
+  "keywords": [
+    "social share"
+  ]
+}
